@@ -1,633 +1,593 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Richard - Multipurpose HTML Template</title>
-    <link rel="stylesheet" type="text/css" href="css/master.css">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Sciento HTML Template</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- inject:css -->
+  <!-- endinject -->
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Lora:400,400i,700" rel="stylesheet">
+  
+<link rel="stylesheet" href="css/main-blue.css" data-pin="img/icofont-location-pin--blue.png">
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+      (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+              try {
+                  w.yaCounter42961429 = new Ya.Metrika({
+                      id:42961429,
+                      clickmap:true,
+                      trackLinks:true,
+                      accurateTrackBounce:true,
+                      webvisor:true,
+                      trackHash:true
+                  });
+              } catch(e) { }
+          });
+
+          var n = d.getElementsByTagName("script")[0],
+              s = d.createElement("script"),
+              f = function () { n.parentNode.insertBefore(s, n); };
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+          if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+          } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/42961429" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
 </head>
 <body>
+    <!--[if lt IE 10]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-<!-- Loader -->
-<div id="page-preloader"><span class="spinner"></span></div>
-<!-- Loader end -->
+    <div class="ie-overflow-fix" style="overflow:hidden;">
+      
 
-<!-- Header -->
-<header class="header header-home">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-xs-8">
-                <a href="index.html" class="logo">
-                    <div class="header-avatar">
-                        <img src="media/first-screen/img_1.jpg" alt="">
-                    </div>
-                    <span class="point">Richard</span>
-                </a>
-            </div>
-            <div class="col-md-9 text-right hidden-sm hidden-xs">
-                <div class="main-menu header-links">
-                    <ul>
-                        <li><a href="#projects">My Projects</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#about-me-modal">About Me</a></li>
-                        <li><a href="download/Resume.pdf" download>Download CV</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#contact-me-modal">Contact me</a></li>
-                    </ul>
-                </div>
-                <div class="change-lng header-links">
-                    <ul>
-                        <li><a href="#">ENG</a></li>
-                        <li><a href="#">RU</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xs-4 hidden-lg hidden-md">
-                <div class="mobile-btn">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
+
+<link rel="stylesheet" href="css/main-blue.css" data-pin="img/icofont-location-pin--blue.png">
+
+
+
+
+
+<header class="c-main-header">
+
+  <div class="o-container">
+
+    <!-- NAVIGATION -->
+    <div class="c-main-header__nav-wrapper" data-menuAnimated="true">
+      <nav class="c-main-nav js-main-nav">
+        <ul class="c-main-nav__list nav-fixed--is-active js-main-nav__list">
+          <li class="c-main-nav__item"><a href="#section-about" class="c-main-nav__link" data-navPosition="1">about</a></li>
+          <li class="c-main-nav__item"><a href="#section-research" class="c-main-nav__link" data-navPosition="2">research</a></li>
+          <li class="c-main-nav__item"><a href="#section-publications" class="c-main-nav__link" data-navPosition="3">publications</a></li>
+          <li class="c-main-nav__item"><a href="#section-education" class="c-main-nav__link" data-navPosition="4">education</a></li>
+          <li class="c-main-nav__item"><a href="#section-teaching" class="c-main-nav__link" data-navPosition="5">teaching</a></li>
+          <li class="c-main-nav__item"><a href="#section-contacts" class="c-main-nav__link" data-navPosition="6">contacts</a></li>
+        </ul>
+        <div class="c-main-nav__bars js-main-nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+      </nav>
     </div>
+    <!-- NAVIGATION END -->
+
+    <!-- ABOUT SECTION-->
+    <div id="section-about" class="c-screen-about o-screen-about" data-contentPosition="1">
+      <div class="o-screen-about__col">
+        <figure class="c-screen-about__image">
+          <span></span>
+          <img src="pic/AshleyProf.jpg" alt="">
+        </figure>
+      </div>
+      <div class="o-screen-about__col">
+        <h1 class="u-mb-5">Ashley Ruba</h1>
+        <span class="c-screen-about__caption">Doctor of Psychology</span>
+        
+         
+
+        <p class="u-mb-10"> I am a fifth-year Ph.D. candidate in Developmental Psychology at the University of Washington with Dr. Betty Repacholi. In September 2019, I will be starting a Postdoctoral Fellowship at the University of Wisconsin - Madison with Dr. Seth Pollak. My fellowship is funded by the Training Program in Emotion Research (T32 MH018931).
+        </p>
+
+        <a class="c-button c-button--bold-text" href="#">download cv</a>
+      </div>
+    </div>
+  </div>
+
 </header>
-<!-- Header -->
 
-<!-- Mobile menu -->
-<div class="mob-menu-wrapper hidden-md hidden-lg">
-    <div class="close-mob-menu">
-        <span class="mdi mdi-window-close"></span>
-    </div>
-    <div class="mobile-box-wrap">
-        <div class="mobile-box-flex">
-            <div class="mobile-menu header-links">
-                <ul>
-                    <li><a href="#projects">My Projects</a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#about-me-modal">About Me</a></li>
-                    <li><a href="download/Resume.pdf" download>Download CV</a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#contact-me-modal">Contact me</a></li>
-                </ul>
-            </div>
-            <div class="change-lng header-links">
-                <ul>
-                    <li><a href="#">ENG</a></li>
-                    <li><a href="#">RU</a></li>
-                </ul>
-            </div>
-        </div>
 
-    </div>
-</div>
-<!-- Mobile menu -->
 
-<div class="wrapper">
 
-    <div class="first-screen">
-        <div class="container full-height">
-            <div class="row full-height">
-                <div class="col-lg-6 col-md-8 col-xs-12 full-height">
-                    <div class="first-screen-box">
-                        <div class="main-avatar">
-                            <img src="media/first-screen/img_1.jpg" alt="">
-                        </div>
-                        <div class="about-me">
-                            <div class="about-title">
-                                <h3>I’m Ashley Ruba. I study babies.</h3>
-                            </div>
-                            <div class="opacity-box">
-                                <p>I am a UI\UX designer located in Hartford, Connecticut. I currently
-                                    work as a part time Remote Junior Web Designer for Coolor, located
-                                    in Las Vegas. I am looking to take on more work and to increase my
-                                    skills as a UI\UX enthusiast.</p>
-                            </div>
-                        </div>
-                        <div class="about-me-info hidden-sm hidden-xs">
-                            <p class="info-row">
-                                <span class="span-title">Phone</span>
-                                <span class="opacity-box">
-                                    <a href="tel:+1-203-324-5400">+1-203-324-5400</a>
-                                </span>
-                            </p>
-                            <p class="info-row">
-                                <span class="span-title">Email</span>
-                                <span class="opacity-box">
-                                    <a href="mailto:richarddesigner@gmail.com">richarddesigner@gmail.com</a>
-                                </span>
-                            </p>
-                            <p class="info-row">
-                                <span class="span-title">Address</span>
-                                <span class="opacity-box">
-                                    <a class="map-link" href="open-google-map">3113 Lochmere Avenue, Weymouth, MA, United States</a>
-                                </span>
-                            </p>
-                            <p class="info-row">
-                                <span class="span-title">Social</span>
-                                <span>
-                                    <a target="_blank" href="https://www.facebook.com/" class="fa fonts-icons mdi mdi-facebook"></a>
-                                    <a target="_blank" href="https://twitter.com/" class="fa fonts-icons mdi mdi-twitter"></a>
-                                    <a target="_blank" href="https://www.instagram.com/" class="fa fonts-icons mdi mdi-instagram"></a>
-                                    <a target="_blank" href="https://dribbble.com/" class="fa fonts-icons mdi mdi-dribbble"></a>
-                                    <a target="_blank" href="https://www.behance.net/" class="fa fonts-icons mdi mdi-behance"></a>
-                                </span>
-                            </p>
-                        </div>
-                        <div class="first-screen-buttons">
-                            <a class="site-btn btn-theme-white" href="#" data-toggle="modal" data-target="#contact-me-modal">Contact me</a>
-                            <a class="site-btn btn-theme-white-tr hidden-sm hidden-xs" href="download/Resume.pdf" download>Download cv</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<main class="o-main">
+
+  <!-- RESEARCH -->
+  <div id="section-research" class="o-container   wow1 fadeIn" data-contentPosition="3">
+    <div class="c-section-heading">
+      <svg class="c-section-heading__icon svg-icon" xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+        <rect class="svg-icon__border" x="0.5" y="0.5" width="90" height="90"/>
+        <path class="svg-icon__item" d="M35.0855615,29.6042781 C35.8716578,29.9572193 37.1390374,30.0106952 37.8128342,29.4759358 C38.6951872,28.7647059 39.3048128,27.855615 39.6470588,26.7272727 C40.973262,22.3582888 37.9251337,16.0374332 36.3101604,13.1229947 C35.8877005,12.368984 34.8502674,11.5721925 34.0374332,11.2887701 C30.2299465,9.98930481 29.4705882,9.15508021 29.5721925,8.28342246 C29.6256684,7.80748663 29.9679144,7.48128342 30.4491979,7.25668449 C31.1550802,6.93048128 31.8823529,6.19786096 31.8074866,5.3368984 C31.6898396,3.98930481 31.2673797,2.89839572 30.5347594,2.06951872 C29.0213904,0.374331551 26.3957219,0.0213903743 24.4491979,0.0213903743 C23.7219251,0.0213903743 23.0213904,0.0748663102 22.4117647,0.139037433 C21.5561497,0.235294118 20.8609626,1.06951872 20.8609626,1.93048128 L20.8609626,42.4919786 C20.8609626,43.3582888 20.8502674,44.0855615 20.8395722,44.1176471 C20.8235294,44.1497326 21.0695187,44.8502674 21.6256684,45.513369 C22.3529412,46.3850267 23.3048128,46.8074866 24.4919786,46.8074866 C26.315508,46.8074866 28.315508,45.8395722 29.7914439,44.9251337 C30.5240642,44.4705882 30.4705882,43.7379679 29.7326203,43.2887701 C28.3743316,42.4705882 26.8181818,41.3368984 26.0053476,40.0909091 C25.5347594,39.3636364 25.7807487,38.6149733 26.1871658,38.5775401 C26.5935829,38.540107 27.0802139,39.2245989 27.6631016,39.8609626 C28.4652406,40.7326203 29.7860963,41.6363636 31.0588235,42.3582888 C31.8128342,42.7860963 33.0481283,42.7326203 33.7754011,42.2620321 C37.4919786,39.855615 39.3957219,37.5561497 39.2994652,35.5614973 C39.1818182,33.171123 36.197861,31.7860963 36.171123,31.7754011 L35.4117647,31.4278075 C35.4117647,31.4278075 34.6737968,31.0695187 34.7005348,31.0641711 C34.7272727,31.0534759 34.1176471,30.7433155 33.3048128,30.4331551 C31.5294118,29.7540107 29.4385027,29.2406417 28.1176471,29.7807487 C27.7914439,29.9144385 27.5294118,30.1176471 27.315508,30.3850267 C26.9679144,30.8235294 26.5614973,31.2085561 26.171123,31.1016043 C25.7754011,30.9946524 25.6042781,30.1925134 26.1283422,29.5080214 C26.4919786,29.0320856 26.973262,28.6631016 27.5561497,28.4278075 C29.7807487,27.5294118 33.0748663,28.6898396 35.0855615,29.6042781 Z M26.1764706,12.1283422 C26.5775401,12.1818182 26.8128342,12.9411765 27.0909091,13.7593583 C27.6524064,15.4064171 29.2245989,17.0534759 30.4973262,18.144385 C31.1497326,18.7058824 31.5454545,19.3743316 31.315508,19.7112299 C31.0855615,20.0481283 30.3208556,19.9144385 29.6631016,19.3582888 C28.2352941,18.1604278 26.0374332,15.9786096 25.5187166,13.5828877 C25.3368984,12.7433155 25.7754011,12.0748663 26.1764706,12.1283422 Z M19.1390374,42.5026738 L19.1390374,1.94117647 C19.1390374,1.07486631 18.4491979,0.240641711 17.5882353,0.14973262 C16.973262,0.0802139037 16.2727273,0.0267379679 15.5454545,0.0267379679 C13.6096257,0.0267379679 10.9786096,0.379679144 9.47058824,2.07486631 C8.73796791,2.89839572 8.31016043,3.99465241 8.19251337,5.34224599 C8.11764706,6.20320856 8.84491979,6.93582888 9.55080214,7.26203209 C10.0213904,7.48128342 10.368984,7.80748663 10.4278075,8.28877005 C10.5294118,9.16042781 9.77540107,9.99465241 5.96256684,11.2994652 C5.14438503,11.5775401 4.10695187,12.3796791 3.68449198,13.1336898 C2.06417112,16.0374332 -0.978609626,22.3582888 0.342245989,26.7326203 C0.684491979,27.8609626 1.29411765,28.7700535 2.17647059,29.4812834 C2.85026738,30.0213904 4.11764706,29.9679144 4.90374332,29.6096257 C6.90909091,28.7005348 10.2139037,27.5347594 12.4278075,28.4491979 C13.0106952,28.6898396 13.4919786,29.0534759 13.8609626,29.5347594 C14.3850267,30.2245989 14.2139037,31.0213904 13.8181818,31.1283422 C13.4224599,31.2352941 13.0213904,30.8502674 12.6737968,30.4064171 C12.4652406,30.1390374 12.197861,29.9358289 11.8663102,29.802139 C10.540107,29.2566845 8.45989305,29.7700535 6.68983957,30.4545455 C5.88235294,30.7647059 5.27272727,31.0748663 5.29946524,31.0909091 C5.32620321,31.1069519 5.01069519,31.2673797 4.58823529,31.4545455 L3.82352941,31.7967914 C3.79679144,31.8128342 0.807486631,33.1925134 0.695187166,35.5828877 C0.598930481,37.5935829 2.53475936,39.9144385 6.31550802,42.342246 C7.04278075,42.8128342 8.28342246,42.8609626 9.03208556,42.4385027 C10.342246,41.7058824 11.7219251,40.7754011 12.5508021,39.8716578 C13.1336898,39.2352941 13.6256684,38.5561497 14.0320856,38.5882353 C14.4385027,38.6203209 14.684492,39.3743316 14.2085561,40.1016043 C13.3636364,41.3850267 11.7326203,42.5508021 10.3529412,43.3743316 C9.60962567,43.8181818 9.55080214,44.5508021 10.2941176,45 C11.7647059,45.8930481 13.7165775,46.8181818 15.4973262,46.8181818 C16.6791444,46.8181818 17.631016,46.3903743 18.3636364,45.540107 C18.9304813,44.8877005 19.1764706,44.1818182 19.1604278,44.1390374 C19.1550802,44.1016043 19.1390374,43.3636364 19.1390374,42.5026738 Z M8.67379679,19.7112299 C8.44385027,19.3743316 8.83957219,18.7058824 9.49197861,18.144385 C10.7647059,17.0534759 12.3368984,15.4064171 12.8983957,13.7593583 C13.1764706,12.9411765 13.4117647,12.1764706 13.8181818,12.1283422 C14.2192513,12.0748663 14.6524064,12.7486631 14.4705882,13.5882353 C13.9572193,15.9893048 11.7540107,18.171123 10.3262032,19.368984 C9.6631016,19.9197861 8.89839572,20.0481283 8.67379679,19.7112299 Z" transform="translate(25.5 24)"/>
+      </svg>
+      <h2 class="c-section-heading__header">Research</h2>
     </div>
 
-    <div id="projects" class="projects-section section">
-        <div class="container">
+    <div class="c-screen-research o-screen-research">
+      <div class="o-screen-research__col">
+        <div class="c-card o-screen-research__cards js-cards">
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h3>Projects</h3>
-                    </div>
-                </div>
+          <div class="c-card__item js-toggle-modal">
+            <div class="c-card__sizer"></div>
+            <div class="c-card__inner">
+              <div class="c-card__icon">
+                <i class="icofont icofont-abc"></i>
+              </div>
+              <h4 class="c-card__header">How do infants learn labels for emotional expressions?</h4>
+              <div class="c-card__content js-card-content">
+                <p class="c-card__text"></p>
+              </div>
+              <div class="c-card__modal-content js-card-modal-content">
+                <p class="c-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                <p class="c-card__link-caption">Check my projects:</p>
+                <a class="c-card__link" href="#">Investigation of rabbit’s neuronal reaction</a>
+                <a class="c-card__link" href="#">What is the main factor of peoples agression?</a>
+              </div>
             </div>
+            <div class="c-card__button">
+              <button class="c-card__button-field" type="button"></button>
+            </div>
+          </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="projects-filter">
-                        <ul class="list-inline">
-                            <li class="active" data-filter="*">All projects</li>
-                            <li data-filter=".web-apps">Web apps design</li>
-                            <li data-filter=".mob-apps">Mobile apps design</li>
-                            <li data-filter=".prototyping">Prototyping</li>
-                        </ul>
-                    </div>
-                </div>
+          <div class="c-card__item c-card__item--text-only" style="background-image:url(img/deco-triangle--blue.png)">
+            <div class="c-card__sizer"></div>
+            <div class="c-card__inner">
+              <div class="c-card__content">
+                <p class="c-card__text">Ashley studies how emotion concepts develop throughout the lifespan, particularly in infancy and early childhood.</p>
+              </div>
             </div>
+          </div>
 
-            <div class="row projects-wrapper">
-                <div class="col-sm-6 col-xs-12 project-item web-apps">
-                    <a href="02_richard_project.html" class="project">
-                            <div class="project-img">
-                                <img src="media/projects/img_4.jpg" alt="">
-                            </div>
-                            <div class="project-name">
-                                <h5>UI\UX design for Shopper’s Android app</h5>
-                            </div>
-                            <div class="project-date">
-                                <p>April, 2017</p>
-                            </div>
-                        </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item mob-apps">
-                    <a href="02_richard_project.html" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/img_2.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>Full UI redesign of my custom Android music player</h5>
-                        </div>
-                        <div class="project-date">
-                            <p>March, 2017</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item web-apps">
-                    <a href="02_richard_project.html" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/img_5.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>Redesign of MOOOV’s iOS app</h5>
-                        </div>
-                        <div class="project-date">
-                            <p>December, 2016</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item prototyping">
-                    <a href="02_richard_project.html" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/img_6.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>UI\UX design of small blogger social app</h5>
-                        </div>
-                        <div class="project-date">
-                            <p>November, 2016</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item mob-apps">
-                    <a href="02_richard_project.html" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/img_3.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>Recipe book Android app UI design for small startup</h5>
-                        </div>
-                        <div class="project-date">
-                            <p>August, 2016</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item prototyping">
-                    <a href="02_richard_project.html" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/img_7.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>Personal page template UI\UX design</h5>
-                        </div>
-                        <div class="project-date">
-                            <p>July, 2016</p>
-                        </div>
-                    </a>
-                </div>
+          <div class="c-card__item js-toggle-modal">
+            <div class="c-card__sizer"></div>
+            <div class="c-card__inner">
+              <div class="c-card__icon">
+                <i class="icofont icofont-unique-idea"></i>
+              </div>
+              <h4 class="c-card__header">How do infants and adults categorize emotional expressions? How does language play a role in this process?</h4>
+              <div class="c-card__content js-card-content">
+                <p class="c-card__text"></p>
+              </div>
+              <div class="c-card__modal-content js-card-modal-content">
+                <p class="c-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                <p class="c-card__link-caption">Check my projects:</p>
+                <a class="c-card__link" href="#">Investigation of rabbit’s neuronal reaction</a>
+                <a class="c-card__link" href="#">What is the main factor of peoples agression?</a>
+              </div>
             </div>
+            <div class="c-card__button">
+              <button class="c-card__button-field" type="button"></button>
+            </div>
+          </div>
+
+          <div class="c-card__item js-toggle-modal">
+            <div class="c-card__sizer"></div>
+            <div class="c-card__inner">
+              <div class="c-card__icon">
+                <i class="icofont icofont-emo-confused"></i>
+              </div>
+              <h4 class="c-card__header">How and when do infants understand different negative emotions (e.g., anger, disgust)?</h4>
+              <div class="c-card__content js-card-content">
+                <p class="c-card__text"></p>
+              </div>
+              <div class="c-card__modal-content js-card-modal-content">
+                <p class="c-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                <p class="c-card__link-caption">Check my projects:</p>
+                <a class="c-card__link" href="#">Investigation of rabbit’s neuronal reaction</a>
+                <a class="c-card__link" href="#">What is the main factor of peoples agression?</a>
+              </div>
+            </div>
+            <div class="c-card__button">
+              <button class="c-card__button-field" type="button"></button>
+            </div>
+          </div>
+
+          <div class="c-card__item js-toggle-modal">
+            <div class="c-card__sizer"></div>
+            <div class="c-card__inner">
+              <div class="c-card__icon">
+                <i class="icofont icofont-baby"></i>
+              </div>
+              <h4 class="c-card__header">How do supervised and unsupervised learning processes influence emotion concept development?</h4>
+              <div class="c-card__content js-card-content">
+                <p class="c-card__text"></p>
+              </div>
+              <div class="c-card__modal-content js-card-modal-content">
+                <p class="c-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                <p class="c-card__link-caption">Check my projects:</p>
+                <a class="c-card__link" href="#">Investigation of rabbit’s neuronal reaction</a>
+                <a class="c-card__link" href="#">What is the main factor of peoples agression?</a>
+              </div>
+            </div>
+            <div class="c-card__button">
+              <button class="c-card__button-field" type="button"></button>
+            </div>
+          </div>
+
+
+
+          <div class="c-card__item js-toggle-modal">
+            <div class="c-card__sizer"></div>
+            <div class="c-card__inner">
+              <div class="c-card__icon">
+                <i class="icofont icofont-group-students"></i>
+              </div>
+              <h4 class="c-card__header">How do parents talk to their infants about emotions?</h4>
+              <div class="c-card__content js-card-content">
+                <p class="c-card__text"></p>
+              </div>
+              <div class="c-card__modal-content js-card-modal-content">
+                <p class="c-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                <p class="c-card__link-caption">Check my projects:</p>
+                <a class="c-card__link" href="#">Investigation of rabbit’s neuronal reaction</a>
+                <a class="c-card__link" href="#">What is the main factor of peoples agression?</a>
+              </div>
+            </div>
+            <div class="c-card__button">
+              <button class="c-card__button-field" type="button"></button>
+            </div>
+          </div>
 
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PUBLICATIONS -->
+  <div id="section-publications" class="o-container   wow1 fadeIn"  data-contentPosition="4">
+    <div class="c-section-heading">
+      <svg class="c-section-heading__icon svg-icon" xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+        <rect class="svg-icon__border" x="0.5" y="0.5" width="90" height="90"/>
+        <path class="svg-icon__item" d="M35.3983368,0.455461058 C40.7043833,0.615926174 46.005081,0.776391291 51.3111275,0.93150757 C52.9478717,0.979647104 53.6325229,1.76057734 53.4613601,3.43476338 C53.2313601,5.73476338 53.0067089,8.04011222 52.739267,10.3347634 C52.247174,14.5549959 51.6481042,18.759182 50.8457787,22.9259262 C49.8990345,27.8415076 48.7864763,32.7142983 46.9143833,37.3784843 C46.1922903,39.1810425 45.3418252,40.9087169 44.2239182,42.5026704 C42.5818252,44.8508099 40.4476391,46.0168564 37.4843833,45.9259262 C31.2422903,45.7387169 24.9948484,45.7547634 18.7474066,45.6638332 C16.1532205,45.6317401 13.5590345,45.5568564 10.9648484,45.4819727 C7.79298797,45.3910425 5.33787169,43.8880192 3.40694146,41.4649959 C1.75415076,39.3949959 0.689732153,37.0201122 0.0692670368,34.4473215 C-0.251663196,33.1261587 0.572057735,32.0724378 1.93066239,32.099182 C6.45577866,32.1954611 10.9862438,32.3184843 15.5113601,32.4201122 C20.2236856,32.527089 24.9306624,32.623368 29.6376391,32.7249959 C29.8194996,32.7303448 29.9960112,32.757089 30.1725229,32.7463913 C31.3064763,32.6768564 31.9857787,33.2438332 32.4404298,34.2387169 C33.2053135,35.9075541 34.1146159,37.5068564 35.1736856,39.0098797 C35.8155461,39.9245308 36.5215926,40.7856936 37.4094996,41.4863913 C38.5701973,42.4010425 39.4794996,42.3849959 40.5385694,41.3526704 C41.7688019,40.1598797 42.4641508,38.6247634 43.1167089,37.0789494 C44.7641508,33.1529029 45.775081,29.0289494 46.6683368,24.8729029 C47.5722903,20.663368 48.2462438,16.4110425 48.8132205,12.1426704 C49.1234531,9.78918199 49.3213601,7.42499594 49.5994996,5.07150757 C49.652988,4.62755408 49.5246159,4.52592617 49.1074066,4.52057734 C45.6360112,4.43499594 42.1646159,4.33871687 38.6985694,4.23708896 C32.9325229,4.07127501 27.1664763,3.90011222 21.4057787,3.71290292 C20.935081,3.69685641 20.8067089,3.83057734 20.7639182,4.29592617 C20.0632205,11.4098797 19.0255461,18.4596471 16.9341508,25.3168564 C16.5490345,26.5952285 16.0515926,27.8361587 15.6076391,29.0984843 C15.5274066,29.3231355 15.415081,29.4515076 15.1369415,29.4461587 C14.0618252,29.4140657 12.9813601,29.403368 11.9062438,29.403368 C11.4890345,29.403368 11.5104298,29.2429029 11.6494996,28.9380192 C13.9281042,23.9368564 14.9925229,18.6040657 15.9125229,13.2338332 C16.5597322,9.43615873 16.9769415,5.61174013 17.3139182,1.77662385 C17.4208949,0.610577337 18.1269415,-0.0259342909 19.2983368,0.000809895162 L31.8627554,0.353833151 C33.0394996,0.385926174 34.2215926,0.359181988 35.392988,0.359181988 C35.3983368,0.391275011 35.3983368,0.423368035 35.3983368,0.455461058 Z M32.9004298,42.1496471 C31.5257787,40.3524378 30.4774066,38.5498797 29.5360112,36.6724378 C29.4236856,36.4477866 29.2525229,36.3729029 29.0064763,36.3782518 C28.4662438,36.3782518 27.9313601,36.3729029 27.3911275,36.3622052 C22.8606624,36.2498797 18.3355461,36.1375541 13.805081,36.0305773 C10.9915926,35.9610425 8.17810425,35.9129029 5.36996471,35.843368 C4.32159262,35.8166238 4.30554611,35.8059262 4.77624378,36.7366238 C6.28996471,39.7426704 8.3439182,41.8875541 12.0667089,41.8929029 C18.372988,41.8982518 24.6739182,42.0587169 30.9801973,42.1496471 C31.5739182,42.1603448 32.1622903,42.1496471 32.9004298,42.1496471 Z M34.1734531,12.8915076 C31.579267,12.8059262 28.9904298,12.7149959 26.3962438,12.6294145 C26.1555461,12.6187169 25.9148484,12.6080192 25.6794996,12.5705773 C25.075081,12.4742983 24.7220577,12.0463913 24.7434531,11.4580192 C24.7594996,10.9124378 25.1446159,10.4952285 25.7222903,10.4310425 C25.9576391,10.4042983 26.1983368,10.4203448 26.4390345,10.4310425 C31.7183368,10.6182518 37.0083368,10.8108099 42.2876391,11.003368 C43.0632205,11.0301122 43.4964763,11.4580192 43.4697322,12.1319727 C43.4483368,12.7738332 42.9936856,13.1749959 42.2501973,13.1536006 C39.5597322,13.0787169 36.869267,12.9877866 34.1734531,12.9022052 L34.1734531,12.8915076 Z M38.0567089,20.5777866 C33.6385694,20.4226704 29.215081,20.2675541 24.7915926,20.107089 C24.0534531,20.0856936 23.5988019,19.7647634 23.5132205,19.187089 C23.432988,18.6522052 23.6790345,18.2617401 24.1604298,18.0263913 C24.4011275,17.903368 24.6632205,17.9301122 24.9199647,17.9408099 L31.6167089,18.1708099 C34.3660112,18.267089 37.1099647,18.3580192 39.859267,18.4489494 C40.2283368,18.4649959 40.5813601,18.5024378 40.8541508,18.7805773 C41.1857787,19.1068564 41.2553135,19.5240657 41.1055461,19.941275 C40.9343833,20.4226704 40.5332205,20.6419727 40.0304298,20.6526704 C39.3725229,20.6580192 38.0567089,20.599182 38.0567089,20.5777866 Z M30.627174,28.0180192 C27.867174,27.8629029 25.107174,27.7077866 22.3525229,27.5473215 C21.8925229,27.5205773 21.6090345,27.2049959 21.5555461,26.6273215 C21.5020577,26.0924378 21.657174,25.7019727 21.9567089,25.461275 C22.1064763,25.3436006 22.2669415,25.3703448 22.4327554,25.3810425 L26.6048484,25.6110425 C28.3218252,25.7019727 30.0334531,25.7982518 31.7504298,25.889182 C31.9804298,25.8998797 32.1997322,25.9426704 32.3708949,26.2208099 C32.5741508,26.547089 32.6222903,26.9642983 32.5260112,27.3815076 C32.4190345,27.8629029 32.1676391,28.0822052 31.8574066,28.0929029 C31.4455461,28.0982518 30.627174,28.0447634 30.627174,28.0180192 Z" transform="translate(17 22)"/>
+      </svg>
+      <h2 class="c-section-heading__header">Publications</h2>
     </div>
 
-    <div class="contacts-section section">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h3>Contact</h3>
-                    </div>
-                </div>
+    <div class="c-screen-publications o-screen-publications">
+      <div class="o-screen-publications__col">
+        <div class="c-article">
+          <div class="c-article__item">
+            <figure class="c-article__image">
+              <img src="pic/DevelopmentalPsychology.gif" alt="">
+            </figure>
+            <div class="c-article__body">
+              <h3 class="c-article__header">How do you feel? Preverbal infants match negative emotions to events.</h3>
+              <p class="c-article__cite">Developmental Psychology (In Press)</p>
+              <p class="c-article__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <div class="c-article__button">
+                <a href="#" class="c-button c-button--simple-text">Read the article</a><i class="icofont icofont-external-link"></i>
+              </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="opacity-box contact-text">
-                        <p>Are you working on something great? I would love to help make it happen! Drop me a
-                            letter and start your project right now! Just do it. I will not spam you
-                            on <br> e-mail or add to MailChimp list.</p>
-                    </div>
-                    <div class="about-me-info">
-                        <p class="info-row">
-                            <span class="span-title">Phone</span>
-                            <span class="opacity-box">
-                                <a href="tel:+1-203-324-5400">+1-203-324-5400</a>
-                            </span>
-                        </p>
-                        <p class="info-row">
-                            <span class="span-title">Email</span>
-                            <span class="opacity-box">
-                                <a href="mailto:richarddesigner@gmail.com">richarddesigner@gmail.com</a>
-                            </span>
-                        </p>
-                        <p class="info-row">
-                            <span class="span-title">Address</span>
-                            <span class="opacity-box">
-                                <a class="map-link" href="open-google-map">3113 Lochmere Avenue, Weymouth, MA, United States</a>
-                            </span>
-                        </p>
-                        <p class="info-row">
-                            <span class="span-title">Social</span>
-                            <span>
-                                <a target="_blank" href="https://www.facebook.com/" class="fa fonts-icons mdi mdi-facebook"></a>
-                                    <a target="_blank" href="https://twitter.com/" class="fa fonts-icons mdi mdi-twitter"></a>
-                                    <a target="_blank" href="https://www.instagram.com/" class="fa fonts-icons mdi mdi-instagram"></a>
-                                    <a target="_blank" href="https://dribbble.com/" class="fa fonts-icons mdi mdi-dribbble"></a>
-                                    <a target="_blank" href="https://www.behance.net/" class="fa fonts-icons mdi mdi-behance"></a>
-                            </span>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-wrapper">
-                        <form id="contact-form" novalidate>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="name-input">Name</label>
-                                        <input type="text"
-                                               class="site-input name-input"
-                                               id="name-input"
-                                               placeholder="Your name"
-                                               required
-                                               data-validation-required-message="Invalid input">
-                                        <p class="help-block"></p>
-                                        <p class="help-block-success">done</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="email-input">E-mail</label>
-                                        <input type="email"
-                                               class="site-input email-input"
-                                               id="email-input"
-                                               placeholder="Contact e-mail"
-                                               required
-                                               data-validation-email-message="Invalid input"
-                                               data-validation-required-message="Invalid input">
-                                        <p class="help-block"></p>
-                                        <p class="help-block-success">done</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="textarea">Message</label>
-                                        <textarea id="textarea"
-                                                  class="site-input textarea"
-                                                  placeholder="Project description"
-                                                  required
-                                                  data-validation-required-message="Invalid input"></textarea>
-                                        <p class="help-block"></p>
-                                        <p class="help-block-success">done</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="submit-holder">
-                                        <input class="site-btn btn-theme-blue" type="submit" value="Send message">
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+          </div>
+          <div class="c-article__item">
+            <figure class="c-article__image">
+              <img src="pic/Emotion.gif" alt="">
+            </figure>
+            <div class="c-article__body">
+              <h3 class="c-article__header">Constructing emotion categorization: Insights from developmental psychology applied to a young adult sample.</h3>
+              <p class="c-article__cite">Emotion, Volume 18(7), Oct 2018, 1043-1051</p>
+              <p class="c-article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+              <div class="c-article__button">
+                <a href="#" class="c-button c-button--simple-text">Read the article</a><i class="icofont icofont-external-link"></i>
+              </div>
             </div>
+          </div>
+          <div class="c-article__item">
+            <figure class="c-article__image">
+              <img src="pic/DevelopmentalPsychology.gif" alt="">
+            </figure>
+            <div class="c-article__body">
+              <h3 class="c-article__header">Developmental changes in infants' categorization of anger and disgust facial expressions.</h3>
+              <p class="c-article__cite">Developmental Psychology, Volume 53(10), Oct 2017, 1826-1832</p>
+              <p class="c-article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <div class="c-article__button">
+                <a href="#" class="c-button c-button--simple-text">Read the article</a><i class="icofont icofont-external-link"></i>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="copyright">
-                    <p>Copyright 2017 Richard.</p>
-                </div>
-            </div>
+        <div class="u-text-right">
+          <a href="#" class="c-button c-button--primary">download cv</a>
         </div>
+      </div>
     </div>
+  </div>
+  <!-- EDUCATION -->
+  <div id="section-education" class="o-container js-main-container  wow1 fadeIn" data-contentPosition="2">
+    <div class="c-section-heading">
+      <svg class="c-section-heading__icon svg-icon" xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+        <rect class="svg-icon__border" x="0.5" y="0.5" width="90" height="90"/>
+        <path class="svg-icon__item" d="M440.894,931.53a1,1,0,0,0,.875-0.325,1.027,1.027,0,0,0,.025-0.925q-0.6-1.749-1-2.8a0.455,0.455,0,0,1-.05-0.35,0.482,0.482,0,0,1,.2-0.25,2.786,2.786,0,0,0,1.075-1.575,2.6,2.6,0,0,0-.175-1.775,2.709,2.709,0,0,0-1.35-1.3,0.48,0.48,0,0,1-.3-0.45V909.43a0.5,0.5,0,0,1,.075-0.3,0.784,0.784,0,0,1,.325-0.2l5.1-1.25a0.922,0.922,0,0,0,.8-0.825,0.789,0.789,0,0,0-.75-0.825l-0.25-.1q-4.85-1.6-10.75-3.25-4.25-1.149-10.85-2.85a8.584,8.584,0,0,0-4.4-.05l-7.75,1.95q2.8-.75-7.25,1.85-4.25,1.1-7.2,1.95a1.447,1.447,0,0,0-.6.275,0.856,0.856,0,0,0,0,1.1,1.957,1.957,0,0,0,.6.325q5.051,1.551,11.45,3.3,3.9,1.05,11.55,3.05a4.679,4.679,0,0,0,2.25-.05l15.55-3.95a0.772,0.772,0,0,1,.4,0,0.474,0.474,0,0,1,.1.4v11.85a0.626,0.626,0,0,1-.3.55,2.7,2.7,0,0,0-1.125,1.35,2.588,2.588,0,0,0-.075,1.7,2.78,2.78,0,0,0,1.05,1.45,0.37,0.37,0,0,1,.225.225,0.766,0.766,0,0,1-.025.325q-0.45,1.2-1.05,2.95a0.987,0.987,0,0,0,.05.825,0.754,0.754,0,0,0,.7.325h2.85Zm-35.5-15.25a2.984,2.984,0,0,0,.85,2.25,8.331,8.331,0,0,0,2.45,1.7,25.045,25.045,0,0,0,6.75,1.75,42.519,42.519,0,0,0,9.15.325,32.329,32.329,0,0,0,8.25-1.525,9.633,9.633,0,0,0,3.7-2.1,3.251,3.251,0,0,0,1.05-2.45v-4.35a0.9,0.9,0,0,0-.1-0.575,1.04,1.04,0,0,0-.6.025l-6.65,1.7q-4,1-6.65,1.7a7.824,7.824,0,0,1-1.35.3,3.532,3.532,0,0,1-1.45,0l-5.35-1.3q-4-.95-9.55-2.55a0.487,0.487,0,0,0-.4-0.025,0.436,0.436,0,0,0-.1.35v4.775Z" transform="translate(-375.5 -865.5)"/>
+      </svg>
+      <h2 class="c-section-heading__header">Education</h2>
+    </div>
+
+    <div class="c-screen-education o-screen-education">
+      <div class="o-screen-education__col">
+        <div class="c-timeline">
+          <ul class="c-timeline__list">
+            <li class="c-timeline__item">
+              <header class="c-timeline__header">
+                <span class="c-timeline__time">2019</span>
+                <span class="c-timeline__line"></span>
+                <h4 class="c-timeline__heading">Post Doctoral Fellowship, University of Wisconsin, Madison, WI</h4>
+              </header>
+              <p class="c-timeline__body">Research under Dr. Seth Pollak in the Child Emotion Lab at the Waisman Center.  Fellowship is funded by the <i>Training Program in Emotion Research</i></p>
+            </li>
+            <li class="c-timeline__item">
+              <header class="c-timeline__header">
+                <span class="c-timeline__time">2019</span>
+                <span class="c-timeline__line"></span>
+                <h4 class="c-timeline__heading">Ph.D., Developmental Psychology, University of Washington, Seattle, WA</h4>
+              </header>
+              <p class="c-timeline__body">Dissertation: <i>The development of emotion concepts in the first two years of life</i></p>
+            </li>
+            <li class="c-timeline__item">
+              <header class="c-timeline__header">
+                <span class="c-timeline__time">2013</span>
+                <span class="c-timeline__line"></span>
+                <h4 class="c-timeline__heading">B.A., Psychology, Duke University, Durham, NC</h4>
+              </header>
+              <p class="c-timeline__body">Honors Thesis: <i>Eighteen-month-olds discriminate and categorize anger and disgust facial
+                expressions: Implications for emotional development theories</i></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="o-screen-education__col o-screen-education__col--narrow">
+        <figure class="c-screen-education__image">
+          <img src="pic/University.jpg" alt="">
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <!-- TEACHING -->
+  <div id="section-teaching" class="o-container   wow1 fadeIn"  data-contentPosition="5">
+    <div class="c-section-heading">
+      <svg class="c-section-heading__icon svg-icon" xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+        <rect class="svg-icon__border" x="0.5" y="0.5" width="90" height="90"/>
+        <path class="svg-icon__item" d="M436.894,3644.08v41.3h-32.8v-41.3h4.25v-1.05a1.437,1.437,0,0,1,.35-1.02,1.091,1.091,0,0,1,.9-0.35,1.151,1.151,0,0,1,.875.4,1.5,1.5,0,0,1,.325,1.02v1h1.2v-1.05a1.42,1.42,0,0,1,.325-0.97,1.1,1.1,0,0,1,.875-0.38,1.179,1.179,0,0,1,.9.38,1.437,1.437,0,0,1,.35,1.02v0.95h1.2v-1.1a1.209,1.209,0,0,1,.35-0.9,1.231,1.231,0,0,1,.85-0.37,1.092,1.092,0,0,1,.85.3,1.112,1.112,0,0,1,.35.87l0.05,1.2h1.2v-0.55a2.417,2.417,0,0,1,.3-1.37,1.08,1.08,0,0,1,.925-0.45,0.916,0.916,0,0,1,.9.42,2.774,2.774,0,0,1,.275,1.4v0.55h1.25v-1.05a1.635,1.635,0,0,1,.375-0.97,0.994,0.994,0,0,1,.85-0.35,1.126,1.126,0,0,1,.85.4,1.635,1.635,0,0,1,.375.97v1.05h1.2v-1.1a1.28,1.28,0,0,1,.35-0.95,1.207,1.207,0,0,1,1.7,0,1.393,1.393,0,0,1,.4.9v1.15h1.2v-1.15a1.209,1.209,0,0,1,.35-0.9,1.231,1.231,0,0,1,.85-0.37,1.092,1.092,0,0,1,.85.3,1.112,1.112,0,0,1,.35.87v1.25h4.25Zm-26.5,10.75a1.018,1.018,0,0,0-.3.75,0.921,0.921,0,0,0,.325.73,1.327,1.327,0,0,0,.875.27h18.75a0.938,0.938,0,0,0,.85-0.8,1.025,1.025,0,0,0-.2-0.9,1.131,1.131,0,0,0-.9-0.35h-18.6A1.082,1.082,0,0,0,410.394,3654.83Zm0,4.15a1.018,1.018,0,0,0-.3.75,0.921,0.921,0,0,0,.325.73,1.327,1.327,0,0,0,.875.27h18.75a0.96,0.96,0,0,0,.85-0.8,0.983,0.983,0,0,0-.225-0.9,1.148,1.148,0,0,0-.875-0.35h-18.6A1.082,1.082,0,0,0,410.394,3658.98Zm0,12.53a1.057,1.057,0,0,0,.025,1.5,1.327,1.327,0,0,0,.875.27l18.75-.05a0.776,0.776,0,0,0,.575-0.22,1.007,1.007,0,0,0,.275-0.58,0.983,0.983,0,0,0-.225-0.9,1.021,1.021,0,0,0-.875-0.3l-13.85-.05h-4.75A1.291,1.291,0,0,0,410.394,3671.51Zm20.25,5.62a1.018,1.018,0,0,0,.3-0.75,0.888,0.888,0,0,0-.325-0.72,1.359,1.359,0,0,0-.925-0.28h-18.7a0.938,0.938,0,0,0-.85.8,0.89,0.89,0,0,0,.175.9,1.212,1.212,0,0,0,.925.35h18.6A1.082,1.082,0,0,0,430.644,3677.13Zm0-8.32a0.987,0.987,0,0,0,.3-0.75,0.921,0.921,0,0,0-.325-0.75,1.359,1.359,0,0,0-.925-0.28h-18.7a0.972,0.972,0,0,0-.575.28,1.3,1.3,0,0,0-.325.57,1.086,1.086,0,0,0,.25.85,1.131,1.131,0,0,0,.9.35h18.6A1.151,1.151,0,0,0,430.644,3668.81Zm0-4.18a1.048,1.048,0,0,0,.3-0.77,0.868,0.868,0,0,0-.325-0.73,1.47,1.47,0,0,0-.925-0.25h-18.7a1.072,1.072,0,0,0-.575.25,1.132,1.132,0,0,0-.325.55,0.983,0.983,0,0,0,.225.9,1.212,1.212,0,0,0,.925.35h18.6A1.082,1.082,0,0,0,430.644,3664.63Z" transform="translate(-374.5 -3619.5)"/>
+      </svg>
+      <h2 class="c-section-heading__header">Achievements</h2>
+    </div>
+
+    <div class="c-screen-teaching o-screen-teaching">
+      <div class="o-screen-teaching__col">
+        <nav class="c-tabs  js-tabs">
+          <div class="c-tabs__item">
+            <input class="u-visuallyhidden" id="tab1" type="radio" name="tabs" checked>
+            <label class="c-tabs__header" for="tab1">Research Grants & Fellowships</label>
+            <div class="c-tabs__content">
+              <ul class="c-tabs__list">
+                <li>
+                  <h4>SBE Postdoctoral Research Fellowship, National Science Foundation - $138,000</h4>
+                  <p>PIs: Ashley Ruba, Seth Pollak</p>
+                </li>
+                <li>
+                  <h4>Graduate School Presidential Dissertation Fellowship, University of Washington - $17,414</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Alcor Summer Fellowship, Department of Psychology, University of Washington - $10,714</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Bolles Dissertation Award, Department of Psychology, University of Washington - $1,250</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Royalty Research Fund Grant (A118236), University of Washington - $39,757</h4>
+                  <p>PIs: Betty Repacholi, Ashley Ruba</p>
+                </li>
+                <li>
+                  <h4>Independent Study Grant, Undergraduate Research Support Office, Duke University - $400</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Vertical Integration Program Fellowship, Duke University - $3,000</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>John M. and Sally V. Blalock Beard Scholarship, Duke University - $32,500</h4>
+                  <p></p>
+                </li>                                                
+              </ul>
+            </div>
+          </div>
+          <div class="c-tabs__item">
+            <input class="u-visuallyhidden" id="tab2" type="radio" name="tabs">
+            <label class="c-tabs__header" for="tab2">Honors & Awards</label>
+            <div class="c-tabs__content">
+              <ul class="c-tabs__list">
+                <li>
+                  <h4>Best Research Project, Internat. Summer School in Affective Sciences, University of Geneva</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Distinguished Service Award, Department of Psychology, University of Washington</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Annual Psychology Department Rapid Fire Research Talk Speaker, University of Washington</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Honorable Mention, Graduate Research Fellowship Program, National Science Foundation</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Best Poster Award, The Society for Affective Science Conference</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Outstanding Undergraduate Submission Award, International Congress on Infant Studies</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Phi Beta Kappa, Beta Chapter of North Carolina, Duke University</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Karl E. Zener Award for Outstanding Honors Thesis in Psychology, Duke University</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Graduation with Distinction in Psychology & Manga Cum Laude, Duke University</h4>
+                  <p></p>
+                </li>                                                                                                
+              </ul>
+            </div>
+          </div>
+          <div class="c-tabs__item">
+            <input class="u-visuallyhidden" id="tab3" type="radio" name="tabs">
+            <label class="c-tabs__header" for="tab3">Teaching Experience</label>
+            <div class="c-tabs__content">
+              <ul class="c-tabs__list">
+                <li>
+                  <h4>Graduate Reader/Grader, Department of Psychology, University of Washington</h4>
+                  <p>
+                    Psychology 334: Laboratory in Social Psychology (1 quarter, 2016)
+                    <br>
+                    Psychology 402: Infant Development (2 quarters, 2016-2017)
+                    <br>
+                    Psychology 415: Personality Development of the Child (4 quarters, 2015-2018)
+                  </p>
+                </li>
+                <li>
+                  <h4>Graduate Writing Tutor, Psychology Writing Center, University of Washington</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Graduate Teaching Assistant, Department of Psychology, University of Washington</h4>
+                  <p>
+                    Psychology 209: Fundamentals of Psychological Research (1 quarter, 2018)
+                    <br>
+                    Psychology 306: Developmental Psychology (4 quarters, 2014-2018)
+                    <br>
+                    Psychology 345: Social Psychology (2 quarters, 2016-2017)
+                    <br>
+                    Psychology 357: Psychobiology of Women (1 quarter, 2015)
+                  </p>
+                </li>
+                <li>
+                  <h4>Undergraduate Writing Tutor, Thompson Writing Program, Duke University</h4>
+                  <p></p>
+                </li>
+                <li>
+                  <h4>Head Tutor, America Reads and Counts, Duke University</h4>
+                  <p></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CONTACT -->
+  <div id="section-contacts" class="o-container   wow1 fadeIn"  data-contentPosition="6">
+    <div class="c-section-heading">
+      <svg class="c-section-heading__icon svg-icon" xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+        <rect class="svg-icon__border" x="0.5" y="0.5" width="90" height="90"/>
+        <path class="svg-icon__item" d="M420.244,4496.18c0.233,0.2.367,0.27,0.4,0.2l0.2-.2q-1.151,1.6,3.35-4.75c1.3-1.83,2.383-3.42,3.25-4.75a58.686,58.686,0,0,0,7.15-14.4,15.384,15.384,0,0,0,.45-7.85,14.379,14.379,0,0,0-2.65-5.85,14.757,14.757,0,0,0-4.9-4.2,14.9,14.9,0,0,0-21.55,16.15,24.1,24.1,0,0,0,1.1,3.75q0.551,1.5,1.55,3.6a93.535,93.535,0,0,0,8.15,13.65q0.85,1.2,2.8,3.8A3.731,3.731,0,0,0,420.244,4496.18Zm7.5-28.45a7.526,7.526,0,0,1-1.15,3.75,7.039,7.039,0,0,1-2.775,2.53,7.4,7.4,0,0,1-3.775.77,6.485,6.485,0,0,1-3.5-1.12,7.688,7.688,0,0,1-2.5-2.75,6.6,6.6,0,0,1-.8-3.53,7.617,7.617,0,0,1,1.15-3.8,7.079,7.079,0,0,1,2.825-2.55,7.263,7.263,0,0,1,3.875-.75,6.615,6.615,0,0,1,3.425,1.18,7.393,7.393,0,0,1,2.45,2.75,7.065,7.065,0,0,1,.825,3.52h-0.05Z" transform="translate(-374.5 -4428.5)"/>
+      </svg>
+      <h2 class="c-section-heading__header">Contact</h2>
+    </div>
+
+    <div class="c-screen-contact o-screen-contact">
+      <div class="o-screen-contact__col-info">
+        <p class="c-screen-contact__item">The best way to reach me is through email.</p>
+        <a class="c-screen-contact__item" href="mailto:aruba@u.washington.edu">aruba@u.washington.edu</a>        
+        
+        <ul class="c-socials u-mb-20">
+          <li class="c-socials__item">
+            <a href="#" class="c-socials__link">
+              <i class="icofont icofont-brand-linkedin"></i>
+            </a>
+          </li>
+          <li class="c-socials__item">
+            <a href="#" class="c-socials__link">
+              <i class="icofont icofont-social-facebook"></i>
+            </a>
+          </li>
+          <li class="c-socials__item">
+            <a href="#" class="c-socials__link">
+              <i class="icofont icofont-social-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="c-screen-contact__address">
+          <li>Institute for Learning & Brain Sciences</li>
+          <li>1715 Columbia Road N</li>
+          <li>Portage Bay Building</li>
+          <li>Box 357988</li>
+          <li>University of Washington</li>
+        </ul>
+      </div>
+      <div class="o-screen-contact__col-form">
+        <img src="pic/Ashley1.png" alt="">
+        <img src="pic/Ashley2.png" alt="">
+        <img src="pic/Ashley3.png" alt="">
+        
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+
+      <footer class="c-main-footer js-main-footer">
+  <div class="c-main-footer__top o-container js-main-footer-top"></div>
+  <div class="c-main-footer__bottom js-main-footer-bottom">
+    <p class="c-main-footer__text">Ashley Ruba. Copyright 2019.</p>
+  </div>
 </footer>
 
-<!-- Modal about me -->
-<div class="modal fade" id="about-me-modal" tabindex="-1" role="dialog" aria-labelledby="about-me-modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="about-me">
-                    <div class="about-title">
-                        <h3>About me</h3>
-                    </div>
-                    <div class="opacity-box">
-                        <p>Hello! My name is Richard Brown. I am a UI\UX designer located in Hartford,
-                            Connecticut. I currently work as a part time Remote Junior Web Designer for Coolor,
-                            located in Las Vegas. I am looking to take on more work and to increase my skills as
-                            a UI\UX enthusiast.</p>
-                    </div>
-                </div>
-                <div class="about-me-info">
-                    <p class="info-row">
-                        <span class="span-title">Phone</span>
-                        <span class="opacity-box">
-                            <a href="tel:+1-203-324-5400">+1-203-324-5400</a>
-                        </span>
-                    </p>
-                    <p class="info-row">
-                        <span class="span-title">Email</span>
-                        <span class="opacity-box">
-                            <a href="mailto:richarddesigner@gmail.com">richarddesigner@gmail.com</a>
-                        </span>
-                    </p>
-                    <p class="info-row">
-                        <span class="span-title">Address</span>
-                        <span class="opacity-box">
-                            <a class="map-link" href="open-google-map">3113 Lochmere Avenue, Weymouth, MA, United States</a>
-                        </span>
-                    </p>
-                    <p class="info-row">
-                        <span class="span-title">Social</span>
-                        <span>
-                            <a target="_blank" href="https://www.facebook.com/" class="fa fonts-icons mdi mdi-facebook"></a>
-                            <a target="_blank" href="https://twitter.com/" class="fa fonts-icons mdi mdi-twitter"></a>
-                            <a target="_blank" href="https://www.instagram.com/" class="fa fonts-icons mdi mdi-instagram"></a>
-                            <a target="_blank" href="https://dribbble.com/" class="fa fonts-icons mdi mdi-dribbble"></a>
-                            <a target="_blank" href="https://www.behance.net/" class="fa fonts-icons mdi mdi-behance"></a>
-                        </span>
-                    </p>
-                </div>
-                <div class="modal-img">
-                    <img src="media/modal-about-me/img_8.jpg" alt="">
-                </div>
-                <div class="resume-box">
-                    <div class="resume-title">
-                        <h4>Experience</h4>
-                    </div>
-                    <div class="resume-desc opacity-box">
-                        <p>I partner with startups, organizations and Fortune 500 companies to build digital
-                            products that help clients overcome challenges and create lasting connections
-                            with millions of people every day.</p>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>UI\UX designer @ Coolor Studio</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>Designed UX for product website, including optimized check-out page
-                                that increased user clicks, and subsequently customer purchases by 20%.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>May 2014 — present</p>
-                        </div>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Web designer @ Illskill agency</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>Leading a small team on a variety of UI design projects and delivering
-                                solutions to meet and exceed clients’ briefs.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>January, 2013 — May, 2014</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="resume-box">
-                    <div class="resume-title">
-                        <h4>Education</h4>
-                    </div>
-                    <div class="resume-desc opacity-box">
-                        <p>All my life I have been driven by my strong belief that education
-                            is important. I try to learn something new every single day.</p>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Product Design Course @ Google & Udacity</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>DProduct Design blends theory and practice to teach product validation, UI/UX
-                                practices, Google’s Design Sprint and the process for setting and tracking
-                                actionable metrics.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>April, 2015 — May, 2015</p>
-                        </div>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Graphic Design @ Boston University</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>BSc (Hons) in Graphic Design. Outstanding Academic Achievement Award.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>January, 2005 — May, 2009</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-buttons">
-                    <a class="site-btn btn-theme-blue" href="#"  data-dismiss="modal" data-toggle="modal" data-target="#contact-me-modal">Contact me</a>
-                    <a class="site-btn btn-theme-blue-tr" href="#" data-dismiss="modal" aria-hidden="true">Back to cv</a>
-                </div>
-            </div>
-        </div>
     </div>
-</div>
-<!-- Modal about me -->
 
-<!-- Modal contact me -->
-<div class="modal fade" id="contact-me-modal" tabindex="-1" role="dialog" aria-labelledby="contact-me-modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="about-me">
-                    <div class="about-title">
-                        <h3>Contact</h3>
-                    </div>
-                    <div class="opacity-box">
-                        <p>Are you working on something great? I would love to help make it happen! Drop me a letter
-                            and start your project right now! Just do it. I will not spam you on e-mail
-                            or add to MailChimp list.</p>
-                    </div>
-                </div>
-                <div class="form-wrapper">
-                    <form id="modal-form" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name-modal">Name</label>
-                                    <input type="text"
-                                           class="site-input name-input"
-                                           id="name-modal"
-                                           placeholder="Your name"
-                                           required
-                                           data-validation-required-message="Invalid input">
-                                    <p class="help-block"></p>
-                                    <p class="help-block-success">done</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="email-modal">E-mail</label>
-                                    <input type="email"
-                                           class="site-input email-input"
-                                           id="email-modal"
-                                           placeholder="Contact e-mail"
-                                           required
-                                           data-validation-email-message="Invalid input"
-                                           data-validation-required-message="Invalid input">
-                                    <p class="help-block"></p>
-                                    <p class="help-block-success">done</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="textarea-modal">Message</label>
-                                    <textarea id="textarea-modal"
-                                              class="site-input textarea"
-                                              placeholder="Project description"
-                                              required
-                                              data-validation-required-message="Invalid input"></textarea>
-                                    <p class="help-block"></p>
-                                    <p class="help-block-success">done</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="modal-buttons">
-                                    <input class="site-btn btn-theme-blue" type="submit" value="Send message">
-                                    <a class="site-btn btn-theme-blue-tr" href="#" data-dismiss="modal" aria-hidden="true">Back to cv</a>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal contact me -->
+    <script src="components/jquery.min.js"></script>
+    <script src="components/wow.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/inview.min.js"></script>
+    <script src="js/main.js"></script>
 
-<!-- Modal send message -->
-<div class="modal fade" id="send-message-modal" tabindex="-1" role="dialog" aria-labelledby="send-message-modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="about-me">
-                    <div class="about-title">
-                        <h3>Your message has been sent!</h3>
-                    </div>
-                    <div class="opacity-box">
-                        <p>Thank you for your interest in my work. I'll contact you just in a few days.
-                            Stay tuned and see you soon, friend!</p>
-                    </div>
-                </div>
-                <div class="modal-buttons">
-                    <a class="site-btn btn-theme-blue" href="#" data-dismiss="modal" aria-hidden="true">Back to cv</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal send message -->
+    <!-- Google map -->
+    <script src="js/map.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD2GTLh7SeztYAZw5ln9zvSnBmkoFq5OM&callback=initMap">
+    </script>
 
-<script src="js/jquery-2.2.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script src="js/jquery.placeholder.min.js"></script>
-
-<!--Isotope-->
-<script src="assets/isotope/imagesloaded.pkgd.min.js"></script>
-<script src="assets/isotope/isotope.pkgd.min.js"></script>
-
-<!--Gradient-->
-<script src="assets/gradient/gradient.js"></script>
-
-<!--Highcharts-->
-<script src="assets/highcharts/highcharts.js"></script>
-<script src="assets/highcharts/data.js"></script>
-<script src="assets/highcharts/exporting.js"></script>
-
-<!--jquery.custom-scroll-->
-<script src="assets/jquery.mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-
-<!--social likes-->
-<script src="assets/social-likes/social-likes.min.js"></script>
-
-<!--Smooth Scroll-->
-<script src="assets/smoothscroll-for-websites/SmoothScroll.js"></script>
-
-<!--jqBootstrapValidation-->
-<script src="assets/contact/jqBootstrapValidation.js"></script>
-<script src="assets/contact/contact_me.js"></script>
-
-<!--THEME-->
-<script src="js/theme.js"></script>
 </body>
 </html>
